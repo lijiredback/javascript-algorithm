@@ -8,8 +8,7 @@
 
 给定 nums = [2, 7, 11, 15], target = 9
 
-因为 nums[0] + nums[1] = 2 + 7 = 9
-所以返回 [0, 1]
+因为 nums[0] + nums[1] = 2 + 7 = 9, 所以返回 [0, 1]
 ```
 
 # 解题思路
@@ -18,7 +17,7 @@
 
 双重 for 循环是最容易想到的方法。其实就是将数组中的每一个元素取出，分别与数组中的其他元素相加，如果等于 target 的值，则返回对应的数组下标。
 
-然而使用双重 for 循环遍历，时间复杂度为 O(n^2^)，效率很低
+然而使用双重 for 循环遍历，时间复杂度为 O(n^2)，效率很低
 
 ```
 let nums = [2, 7, 11, 15];
@@ -57,18 +56,27 @@ let target = 9;
  * @return {number[]}
  */
 const twoSum = function(nums, target) {
-    const o = new Map();
+    // 创建一个 map 集合
+    const o = new Map(); 
+
+    // 循环遍历数组
     for (let i = 0; i < nums.length; i++) {
+      // 将 target - 当前元素的值，赋值给 temp 变量
       const temp = target - nums[i];
 
+      // 如果 map 集合中有这个值，则返回当前元素的下标 i，以及 map 集合中对应值的下标
       if (o.has(temp))
         return [i, o.get(temp)];
       
+      // 如果 map 集合中没有这个值，就将当前值作为键，下标作为值，存入 map 集合
       o.set(nums[i], i);
     }
+
+  // 如果没有找到返回 null
   return null;
 };
 ```
 
+完美解决，时间复杂度 O(n)
 
 
