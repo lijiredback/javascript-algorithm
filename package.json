@@ -1,0 +1,20 @@
+{
+  "name": "javascript-algorithm",
+  "version": "1.0.0",
+  "description": "javascript data structure and algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "javascript", "data structure", "algorithm" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijiredback/javascript-algorithm.git"
+  },
+  "author": "zero&one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lijiredback/javascript-algorithm/issues"
+  },
+  "homepage": "https://github.com/lijiredback/javascript-algorithm#readme"
+}
