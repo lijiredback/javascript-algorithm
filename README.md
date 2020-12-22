@@ -1,10 +1,10 @@
 <h1 align="center">JavaScript 数据结构与算法</h1>
 
-# Leetcode
+# 简介
+# 分类
 
-## 链表
-
- - 0206 反转链表
+## 数据结构
+### [链表](https://github.com/lijiredback/javascript-algorithm/tree/master/src/linked-list)
 
 <hr />
 
