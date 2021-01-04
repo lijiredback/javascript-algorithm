@@ -7,6 +7,8 @@
 
 ### 树（Tree）
 
+![image](https://github.com/lijiredback/javascript-algorithm/blob/master/src/imgs/tree.jpg)
+
 > 参考：极客时间《数据结构与算法之美》
 
 ## Leetcode 相关题目
