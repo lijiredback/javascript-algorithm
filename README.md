@@ -6,5 +6,7 @@
 ## 数据结构
 ### [链表](https://github.com/lijiredback/javascript-algorithm/tree/master/src/linked-list)
 
+### [树]
+
 <hr />
 
