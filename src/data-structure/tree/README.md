@@ -49,3 +49,4 @@
 + [#0144-二叉树的前序遍历](https://github.com/lijiredback/javascript-algorithm/blob/master/src/data-structure/tree/%230144-binary-tree-preorder-traversal.md)
 + [#0145-二叉树的后序遍历](https://github.com/lijiredback/javascript-algorithm/blob/master/src/data-structure/tree/%230145-binary-tree-postorder-traversal.md)
 + [#0589-N叉树的前序遍历](https://github.com/lijiredback/javascript-algorithm/blob/master/src/data-structure/tree/%230589-n-ary-tree-preorder-traversal.md)
++ [#0590-N叉树的后序遍历](https://github.com/lijiredback/javascript-algorithm/blob/master/src/data-structure/tree/%230590-n-ary-tree-postorder-traversal.md)
