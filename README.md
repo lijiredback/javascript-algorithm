@@ -1,5 +1,7 @@
 <h1 align="center">JavaScript 数据结构与算法</h1>
 
+![image](https://github.com/lijiredback/javascript-algorithm/blob/master/src/imgs/banner.jpeg)
+
 # 简介
 # 分类
 
