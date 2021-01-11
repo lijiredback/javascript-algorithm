@@ -10,5 +10,9 @@
 
 ### [树](https://github.com/lijiredback/javascript-algorithm/tree/master/src/data-structure/tree)
 
+## 算法
+
+### [递归](https://github.com/lijiredback/javascript-algorithm/tree/master/src/algorithm/recursion)
+
 <hr />
 
