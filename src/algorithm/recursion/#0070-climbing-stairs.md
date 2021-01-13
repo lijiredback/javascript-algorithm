@@ -62,3 +62,5 @@ var climbStairs = function(n) {
     return climbStairs(n - 1) + climbStairs(n - 2)
 }
 ```
+
+### 2. 动态规划
