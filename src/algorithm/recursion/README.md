@@ -77,7 +77,7 @@ const recursion = (level, params) => {   
 
 ## leetcode 相关题目
 
-+ 爬楼梯
++ [爬楼梯](https://github.com/lijiredback/javascript-algorithm/blob/master/src/algorithm/recursion/%230070-climbing-stairs.md)
 + 括号生成
 + 反转二叉树
 + 验证二叉搜索树
