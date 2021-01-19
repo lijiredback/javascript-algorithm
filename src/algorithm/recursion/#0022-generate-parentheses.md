@@ -24,6 +24,28 @@
  * @return {string[]}
  */
 var generateParenthesis = function(n) {
+    const ret = [] // 保存
+    
+    // 左括号不能超 n
+    // 右括号 < 左括号 才能加
+    function generate(left, right, n, s, arr) {
+        // terminator 终止条件
+        if (left === n && right === n) {
+            ret.push(s)
+            return;
+        }
 
+        // process: 处理当前层
+
+
+        // drill down
+        if (left < n) generate(left + 1, right, n, s + '(')
+        if (left > right) generate(left, right + 1, n, s + ')')
+
+        // reverse states
+    }
+    generate(0, 0, n, '', ret)
+    
+    return ret
 };
 ```
